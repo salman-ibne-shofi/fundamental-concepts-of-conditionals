@@ -65,3 +65,22 @@ if (num1 > num2) {
 	const result = num1 + num2;
 	console.log(result);
 }
+
+// Ticket fare calculator
+const age = 50;
+const ticket = 800;
+const student = false;
+
+if (age < 10) {
+	console.log("free");
+} else if (student === true) {
+	const discount = (ticket * 50) / 100;
+	const payAmount = ticket - discount;
+	console.log(payAmount);
+} else if (age >= 60) {
+	const discount = (ticket * 15) / 100;
+	const payAmount = ticket - discount;
+	console.log(payAmount);
+} else {
+	console.log("ticket 800tk");
+}
