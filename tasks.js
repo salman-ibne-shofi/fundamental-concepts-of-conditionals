@@ -52,3 +52,16 @@ if (myScore > 80) {
 } else if (myScore < 80) {
 	console.log("sleep and act sad");
 }
+
+// 5 ternary number
+const num1 = 40;
+const num2 = 30;
+var result;
+
+if (num1 > num2) {
+	const result = num1 * 2;
+	console.log(result);
+} else if (num1 < num2) {
+	const result = num1 + num2;
+	console.log(result);
+}
