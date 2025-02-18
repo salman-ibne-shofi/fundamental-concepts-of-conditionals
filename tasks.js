@@ -19,3 +19,18 @@ if (BMI < 18.5) {
 } else {
 	console.log("you are obese");
 }
+
+// Grade Calculator
+const mark = 72;
+
+if (mark >= 90 && mark <= 100) {
+	console.log("A grade");
+} else if (mark >= 80 && mark <= 89) {
+	console.log("B grade");
+} else if (mark >= 70 && mark <= 89) {
+	console.log("C grade");
+} else if (mark >= 60 && mark <= 69) {
+	console.log("D grade");
+} else {
+	console.log("F grade");
+}
