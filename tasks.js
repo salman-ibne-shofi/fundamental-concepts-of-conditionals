@@ -34,3 +34,21 @@ if (mark >= 90 && mark <= 100) {
 } else {
 	console.log("F grade");
 }
+
+// 4 nested friend
+const myScore = 79;
+const myFrnd = 39;
+
+if (myScore > 80) {
+	if (myFrnd > 80) {
+		console.log("go for a lunch");
+	} else if (myFrnd < 80 && myFrnd >= 60) {
+		console.log("good luck");
+	} else if (myFrnd < 60 && myFrnd >= 40) {
+		console.log("text unseen");
+	} else if (myFrnd < 40) {
+		console.log("block him");
+	}
+} else if (myScore < 80) {
+	console.log("sleep and act sad");
+}
